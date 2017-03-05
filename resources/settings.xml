@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="51000">
+        <setting label="51001" id="hyperion_host" type="ipaddress" default="127.0.0.1"/>
+        <setting label="51002" id="hyperion_port" type="number" default="19444"/>
+        <setting label="51003" id="priority" type="slider" default="0" range="0,100,1500" option="int"/>
+    </category>
+    <category label="52000">
+        <setting label="52001" id="autostart" type="bool" default="false"/>
+        <setting label="52007" id="clear_on_start" type="bool" default="false"/>
+        <setting label="52002" id="clear_on_video_playback" type="bool" default="false"/>
+        <setting label="52003" id="off_on_shutdown" type="bool" default="false"/>
+        <setting type="sep"/>
+        <setting label="52008" id="effect_on_playback_stopped" type="labelenum" default="" lvalues="30000|30001|30002|30003|30004|30005|30006|30007|30008|30009|30010|30012|30013|30014|30015|30016"/>
+        <setting label="52009" id="effect_on_playback_paused" type="labelenum" default="" lvalues="30000|30001|30002|30003|30004|30005|30006|30007|30008|30009|30010|30012|30013|30014|30015|30016"/>
+        <setting label="52010" id="effect_on_playback_audio" type="labelenum" default="" lvalues="30000|30001|30002|30003|30004|30005|30006|30007|30008|30009|30010|30012|30013|30014|30015|30016"/>
+        <setting label="52011" id="effect_on_kodi_startup" type="labelenum" default="" lvalues="30000|30001|30002|30003|30004|30005|30006|30007|30008|30009|30010|30012|30013|30014|30015|30016"/>
+        <setting type="sep"/>
+        <setting label="52006" id="off_on_screensaver_activated" type="bool" default="false"/>
+        <setting label="52012" id="effect_on_screensaver_deactived" type="labelenum" default="" lvalues="30000|30001|30002|30003|30004|30005|30006|30007|30008|30009|30010|30012|30013|30014|30015|30016"/>
+    </category>
+    <category label="53000">
+        <setting label="53001" id="switch_type" type="enum" default="" lvalues="30000|53002|53003"/>
+        <setting label="53002" id="switch_effect" type="labelenum" enable="eq(-1,1)" visible="eq(-1,1)" default="" lvalues="30000|30001|30002|30003|30004|30005|30006|30007|30008|30009|30010|30012|30013|30014|30015|30016"/>
+        <setting label="53004" id="switch_additional" type="executable" enable="eq(-1,1)" visible="eq(-1,1)" default=""/>
+    </category>
+</settings>

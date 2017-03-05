@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="20000">hyperion host/port not configured..</string>
+    <string id="20001">cleared</string>
+
+    <string id="51000">hyperion</string>
+    <string id="51001">host</string>
+    <string id="51002">port</string>
+    <string id="51003">Priority</string>
+
+    <string id="52000">Service</string>
+    <string id="52001">enabled</string>
+    <string id="52002">clear all on video playback</string>
+    <string id="52003">set color to black on kodi shutdown</string>
+
+    <string id="52007">clear all on start</string>
+    <string id="52008">effect on video playback stop</string>
+    <string id="52009">effect on video playback paused</string>
+    <string id="52010">effect on audio playback</string>
+    <string id="52011">effect on kodi startup</string>
+    <string id="52006">set color to black on screensaver activated</string>
+    <string id="52012">effect on screensaver deactivated</string>
+
+    <string id="53000">switch</string>
+    <string id="53001">mode</string>
+    <string id="53002">effect</string>
+    <string id="53003">clearAll</string>
+    <string id="53004">additional executable</string>
+
+    <!-- don't translate values below! -->
+    <string id="30000">None</string>
+    <string id="30001">Knight rider</string>
+    <string id="30002">Blue mood blobs</string>
+    <string id="30003">Red mood blobs</string>
+    <string id="30004">Full color mood blobs</string>
+    <string id="30005">Green mood blobs</string>
+    <string id="30006">Red mood blobs</string>
+    <string id="30007">Warm mood blobs</string>
+    <string id="30008">Rainbow swirl</string>
+    <string id="30009">Rainbow swirl fast</string>
+    <string id="30010">Snake</string>
+    <string id="30011">Strobe blue</string>
+    <string id="30012">Strobe Raspbmc</string>
+    <string id="30013">Strobe white</string>
+    <string id="30014">Police Lights Single</string>
+    <string id="30015">Police Lights Solid</string>
+    <string id="30016">X-Mas</string>
+</strings>
